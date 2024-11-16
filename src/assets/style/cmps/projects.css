@@ -26,7 +26,8 @@
 
 .project {
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     place-items: center;
     gap: 2rem;
     margin-block-start: 3rem;
