@@ -1,0 +1,86 @@
+.about img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+.about .about-title {
+    position: absolute;
+    top: 20vh;
+    left: 34.5%;
+    font-size: 1.5rem;
+}
+
+.about .about-title h1 {
+    font-family: Montserrat-Black;
+    color: rgba(0, 0, 0, 95%);
+    margin: 0;
+}
+
+.about .about-title h1 span {
+    color: rgba(255, 255, 255, 85%);
+    text-shadow: 0.2px 0.2px 2px rgba(0, 0, 0, 0.5), -1px -1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.about .about-title p {
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    font-family: Montserrat-Thin;
+}
+
+.about .about-title p span {
+    font-family: Montserrat-Regular;
+}
+
+.about .about-extended {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    gap: 2rem;
+
+    margin-block-start: 5rem;
+    margin-inline: 1rem;
+}
+
+.about .about-extended h1 {
+    display: inline-block;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.about .about-extended h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.about .about-extended p {
+    font-family: Montserrat-Thin;
+    text-align: justify;
+    line-height: 2;
+}
+
+.about-animation {
+    position: relative;
+    place-items: center;
+}
+
+.about-animation img {
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    max-width: 12rem;
+    max-height: 12rem;
+}
+
+.blob {
+    width: 200px;
+    height: 200px;
+    background-color: var(--main-dark);
+    border-radius: 60% 80% 50% 70% / 70% 50% 80% 60%;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}

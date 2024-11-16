@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* min-height: 100vh; */
+    /* max-width: 1250px; */
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: Montserrat-Regular;
+    color: white;
+
+    background-color: rgb(9, 9, 9);
+    /* background-color: white; */
+
+}
+
+img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+ul,
+li,
+a,
+button {
+    all: unset;
+}

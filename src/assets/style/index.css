@@ -1,0 +1,14 @@
+/* Setup */
+@import './setup/variables.css';
+@import './setup/typography.css';
+
+/* Basics */
+@import './basics/base.css';
+
+/* Cmps */
+@import './cmps/app-header.css';
+@import './cmps/about.css';
+@import './cmps/skills.css';
+@import './cmps/projects.css';
+@import './cmps/connect.css';
+
