@@ -5,10 +5,12 @@ import { Connect } from './cmps/Connect.jsx'
 import { AbnbDetails } from './pages/AbnbDetails.jsx';
 import { AppsusDetails } from './pages/AppsusDetails.jsx';
 import { HomePage } from './pages/HomePage.jsx'
+import { ScrollToTop } from './cmps/ScrollToTop.jsx';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <AppHeader />
         <Routes>
