@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
+
 export function Projects() {
     return <section className="projects" id="projects">
         <h1>PROJECTS</h1>
         <p>All projects, including this website, were developed either independently or through collaborative work.</p>
         <ul>
             <li className="project">
-                <section className="project-image" title="Project Details">
-                <img src="./src/assets/imgs/projects/Abnb/abnbhome2.jpg" />
-                <div className="overlay"></div>
-                </section>
+                <Link to="/abnb">
+                    <section className="project-image" title="Project Details">
+                        <img src="./src/assets/imgs/projects/Abnb/abnbhome2.jpg" />
+                        <div className="overlay"></div>
+                    </section>
+                </Link>
                 <section className="project-info">
                     <h2>Abnb</h2>
                     <h3>Airbnb clone app</h3>
@@ -17,10 +21,12 @@ export function Projects() {
                 </section>
             </li>
             <li className="project">
-                <section className="project-image" title="Project Details">
-                <img src="./src/assets/imgs/projects/Appsus/appsushomepage.jpg" />
-                <div className="overlay"></div>
-                </section>
+                <Link to="/appsus">
+                    <section className="project-image" title="Project Details">
+                        <img src="./src/assets/imgs/projects/Appsus/appsushomepage.jpg" />
+                        <div className="overlay"></div>
+                    </section>
+                </Link>
                 <section className="project-info">
                     <h2>AppSus</h2>
                     <h3>Gmail clone app</h3>
