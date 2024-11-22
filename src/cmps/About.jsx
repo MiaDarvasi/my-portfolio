@@ -1,7 +1,11 @@
+import landpage from "../assets/imgs/landpage2.jpg";
+import computer from "../assets/imgs/icons/computer.svg";
+
+
 
 export function About() {
     return <section className="about" id="about">
-        <img src="./src/assets/imgs/landpage2.jpg" />
+        <img src={landpage} />
         <div className="about-title">
             <h1>Hi, <br /> I'm a <span>Web Developer</span></h1>
             <p>My name is <span>Mia</span>, Welcome to my <span>Portfolio</span></p>
@@ -19,7 +23,7 @@ export function About() {
             </section>
             <section className="about-animation">
                 <div className="blob"></div>
-                <img src="./src/assets/imgs/icons/computer.svg" />
+                <img src={computer} />
             </section>
         </section>
     </section>

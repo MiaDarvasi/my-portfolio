@@ -1,6 +1,16 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
+import auth from "../assets/imgs/icons/auth.png";
+import bug from "../assets/imgs/icons/bug.png";
+import responsiveimg from "../assets/imgs/icons/responsive.png";
+import api from "../assets/imgs/icons/api.png";
+import collab from "../assets/imgs/icons/collab.png";
+
+
+
+
+
 
 export function Skills() {
 
@@ -60,23 +70,23 @@ export function Skills() {
 
         <Carousel responsive={responsive} infinite={true} className="skill-slider">
             <div className="item">
-                <img src="./src/assets/imgs/icons/auth.png" />
+                <img src={auth} />
                 <h5>Authentication & Authorization</h5>
             </div>
             <div className="item">
-                <img src="./src/assets/imgs/icons/bug.png" />
+                <img src={bug} />
                 <h5>Debugging Complex Issues</h5>
             </div>
             <div className="item">
-                <img src="./src/assets/imgs/icons/responsive.png" />
+                <img src={responsiveimg} />
                 <h5>Responsive Design</h5>
             </div>
             <div className="item">
-                <img src="./src/assets/imgs/icons/api.png" />
+                <img src={api} />
                 <h5>RESTful API</h5>
             </div>
             <div className="item">
-                <img src="./src/assets/imgs/icons/collab.png" />
+                <img src={collab} />
                 <h5>Collaborative Work</h5>
             </div>
         </Carousel>

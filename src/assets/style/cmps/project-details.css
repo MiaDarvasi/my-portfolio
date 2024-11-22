@@ -8,10 +8,11 @@
 
 .project-main-img {
     max-height: 60vh;
+    max-width: 90%;
     width: auto;
     object-fit: contain;
     margin-inline: 1rem;
-    margin-block-start: 7rem;
+    margin-block-start: 7%;
     border-radius: 20px;
 }
 
