@@ -104,3 +104,10 @@
     cursor: pointer;
     filter: saturate(0) brightness(1000%);
 }
+
+@media (max-width: 650px) {
+    .project-details .gallery-item-imgs {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+}

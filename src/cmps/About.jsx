@@ -1,7 +1,7 @@
 
 export function About() {
     return <section className="about" id="about">
-        <img src="./src/assets/imgs/landpage.jpg" />
+        <img src="./src/assets/imgs/landpage2.jpg" />
         <div className="about-title">
             <h1>Hi, <br /> I'm a <span>Web Developer</span></h1>
             <p>My name is <span>Mia</span>, Welcome to my <span>Portfolio</span></p>

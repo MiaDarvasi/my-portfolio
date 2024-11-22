@@ -17,7 +17,7 @@ export function AbnbDetails() {
                     </section>
                 </li>
                 <li className="gallery-item">
-                    <h3>Property Details</h3>
+                    <h3>Detailed Property</h3>
                     <section className="gallery-item-imgs">
                         <img src="./src/assets/imgs/projects/Abnb/abnbdetails.jpg" />
                         <img src="./src/assets/imgs/projects/Abnb/abnbdetails2.jpg" />

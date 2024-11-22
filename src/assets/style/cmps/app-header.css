@@ -76,3 +76,9 @@
 .app-header div:hover {
     cursor: pointer;
 }
+
+@media (max-width: 650px) {
+    nav {
+        display: none; /* Hide the nav on mobile */
+    }
+}

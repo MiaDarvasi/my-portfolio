@@ -130,3 +130,10 @@
 .project-image:hover img {
     opacity: 0.3;
 }
+
+@media (max-width: 650px) {
+    .project {
+        grid-template-columns: 1fr; /* Change to a single column */
+        grid-auto-flow: row; /* Allow auto-flow for rows */
+    }
+}
