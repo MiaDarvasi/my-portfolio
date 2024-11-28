@@ -16,6 +16,6 @@ React Router: For navigating between different sections of the portfolio.
 CSS: For styling the portfolio.
 
 Contributing
-Contributions are welcome! If you have suggestions, improvements, or bug fixes, feel free to fork the repository and submit a pull request. Please ensure your code adheres to the following:
+Contributions are welcome! If you have suggestions, improvements, or bug fixes, feel free to fork the repository and submit a pull request.
 
 Contact For questions or feedback, feel free to reach out to me directly at: Email: miadarv@gmail.com
